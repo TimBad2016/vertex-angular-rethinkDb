@@ -1,0 +1,21 @@
+﻿<h1>Row inserted </h1><!--vm.user.firstName-->
+<p>You're logged in!!</p>
+<h3>All registered users:</h3>
+
+
+ <div class="col-md-12">
+      <div class="alert alert-warning ng-class:{'invisible': !pageModified};" role="alert">
+        The page has been modified users Inserted is : {{result}}.
+      
+      </div>
+
+</div>
+    
+<ul>
+    <li ng-repeat="u in rethink">
+         {{u.name}} 
+        <!-- <a ng-click="vm.deleteUser(user.id)">Delete</a>-->
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><a href="#!/login" class="btn btn-primary">Logout</a></p>

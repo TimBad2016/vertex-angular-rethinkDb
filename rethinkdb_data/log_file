@@ -1,0 +1,62 @@
+2018-05-27T19:04:43.807937266 0.415879s notice: Recursively removing directory /home/timbad/workspace/vertx-source/vertx-guide-for-devs-unchanged/step-7/rethinkdb_data/tmp
+2018-05-27T19:04:43.882394640 0.490327s notice: Initializing directory /home/timbad/workspace/vertx-source/vertx-guide-for-devs-unchanged/step-7/rethinkdb_data
+2018-05-27T19:04:43.882541915 0.490474s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/timbad/workspace/vertx-source/vertx-guide-for-devs-unchanged/step-7/rethinkdb_data' did not already exist or is empty.)
+2018-05-27T19:04:43.882980562 0.490914s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-05-27T19:04:43.885411398 0.493347s notice: Running on Linux 4.13.0-43-generic i686
+2018-05-27T19:04:43.885499191 0.493431s notice: Loading data from directory /home/timbad/workspace/vertx-source/vertx-guide-for-devs-unchanged/step-7/rethinkdb_data
+2018-05-27T19:04:44.238719341 0.846652s info: Automatically using cache size of 956 MB
+2018-05-27T19:04:44.274715393 0.882648s notice: Listening for intracluster connections on port 29015
+2018-05-27T19:04:44.327252077 0.935184s notice: Listening for client driver connections on port 28015
+2018-05-27T19:04:44.327417018 0.935349s notice: Listening for administrative HTTP connections on port 8080
+2018-05-27T19:04:44.327423894 0.935356s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-27T19:04:44.327432131 0.935364s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-27T19:04:44.327436586 0.935368s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-27T19:04:44.327445067 0.935377s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-05-27T19:04:44.327447767 0.935379s notice: Server ready, "timbad_LIFEBOOK_A530_n2m" b173e3c9-0e17-4520-82d0-259b487e29cc
+2018-05-27T19:06:44.004726961 120.612661s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-05-27T19:06:44.004988634 120.612921s notice: Shutting down client connections...
+2018-05-27T19:06:44.005102085 120.613034s notice: All client connections closed.
+2018-05-27T19:06:44.005108358 120.613040s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-05-27T19:06:44.033138597 120.641072s notice: Storage engine shut down.
+2018-05-27T19:09:05.807609579 0.244124s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-05-27T19:09:05.810021160 0.246534s notice: Running on Linux 4.13.0-43-generic i686
+2018-05-27T19:09:05.810094772 0.246606s notice: Loading data from directory /home/timbad/workspace/vertx-source/vertx-guide-for-devs-unchanged/step-7/rethinkdb_data
+2018-05-27T19:09:05.886459729 0.322971s info: Automatically using cache size of 789 MB
+2018-05-27T19:09:05.887270645 0.323782s notice: Listening for intracluster connections on port 29015
+2018-05-27T19:09:05.890160625 0.326672s notice: Listening for client driver connections on port 28015
+2018-05-27T19:09:05.890514928 0.327027s notice: Listening for administrative HTTP connections on port 8080
+2018-05-27T19:09:05.890522963 0.327034s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-27T19:09:05.890533751 0.327045s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-27T19:09:05.890539194 0.327050s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-27T19:09:05.890549846 0.327061s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-05-27T19:09:05.890559904 0.327071s notice: Server ready, "timbad_LIFEBOOK_A530_n2m" b173e3c9-0e17-4520-82d0-259b487e29cc
+2018-05-27T19:11:26.020177956 140.456689s info: Table ac1e82d6-6ee1-4f3a-ae83-5e9a30a547b8: Starting a new Raft election for term 1.
+2018-05-27T19:11:26.034790583 140.471302s info: Table ac1e82d6-6ee1-4f3a-ae83-5e9a30a547b8: Added replica on this server.
+2018-05-27T19:11:26.083111381 140.519623s info: Table ac1e82d6-6ee1-4f3a-ae83-5e9a30a547b8: This server is Raft leader for term 1. Latest log index is 0.
+2018-05-28T00:54:42.907551376 5041.196151s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-05-28T00:54:42.907807713 5041.196406s notice: Shutting down client connections...
+2018-05-28T00:54:42.909663430 5041.198262s notice: All client connections closed.
+2018-05-28T00:54:42.909816469 5041.198415s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-05-28T00:54:42.971234111 5041.259834s notice: Storage engine shut down.
+2018-05-28T01:00:09.083400974 0.217333s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-05-28T01:00:09.102689886 0.236625s notice: Running on Linux 4.13.0-43-generic i686
+2018-05-28T01:00:09.102837940 0.236767s notice: Loading data from directory /home/timbad/workspace/vertx-source/vertx-guide-for-devs-unchanged/step-7/rethinkdb_data
+2018-05-28T01:00:09.185660174 0.319589s info: Automatically using cache size of 462 MB
+2018-05-28T01:00:09.186692771 0.320622s notice: Listening for intracluster connections on port 29015
+2018-05-28T01:00:09.229692503 0.363622s notice: Listening for client driver connections on port 28015
+2018-05-28T01:00:09.230099767 0.364029s notice: Listening for administrative HTTP connections on port 8080
+2018-05-28T01:00:09.230104258 0.364033s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-28T01:00:09.230107569 0.364036s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-28T01:00:09.230110918 0.364039s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-05-28T01:00:09.230128229 0.364057s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-05-28T01:00:09.230131862 0.364060s notice: Server ready, "timbad_LIFEBOOK_A530_n2m" b173e3c9-0e17-4520-82d0-259b487e29cc
+2018-05-28T01:00:10.392901982 1.526831s info: Table ac1e82d6-6ee1-4f3a-ae83-5e9a30a547b8: Starting a new Raft election for term 2.
+2018-05-28T01:00:10.484140574 1.618070s info: Table ac1e82d6-6ee1-4f3a-ae83-5e9a30a547b8: This server is Raft leader for term 2. Latest log index is 3.
+2018-05-28T01:20:48.996641405 1239.597590s info: Table 6c1e03bf-6772-4169-9ff2-5d2b182f2c80: Starting a new Raft election for term 1.
+2018-05-28T01:20:48.997013307 1239.597962s info: Table 6c1e03bf-6772-4169-9ff2-5d2b182f2c80: Added replica on this server.
+2018-05-28T01:20:49.046072464 1239.647021s info: Table 6c1e03bf-6772-4169-9ff2-5d2b182f2c80: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-03T16:13:13.972766272 5.470881s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-03T16:13:13.989345774 5.487459s notice: Running on Linux 4.13.0-45-generic i686
+2018-07-03T16:13:13.989488748 5.487598s notice: Loading data from directory /home/timbad/workspace/vertx-source/vertx-guide-for-devs-unchanged/step-7/rethinkdb_data
+2018-07-03T16:13:14.122303445 5.620413s info: Automatically using cache size of 514 MB
+2018-07-03T16:13:14.123467333 5.621576s error: TCP socket creation failed for port 29015: Address already in use.
